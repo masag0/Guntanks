@@ -1,0 +1,22 @@
+canvas {
+  /* background-color: blue; */
+  margin-top: 100px;
+  border: 1px solid black;
+  /* width: 1200px;
+  height: 640px; */
+  /* position: fixed; */
+  /* top: 100px;
+  left: 0;
+  right: 0; */
+}
+
+.main {
+  background-image: url('./background.png');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
