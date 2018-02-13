@@ -14,6 +14,13 @@ canvas {
   right: 0; */
 }
 
+#ui-canvas {
+  position: absolute;
+  top: 0;
+  /* color: white;
+  font-size: 20px; */
+}
+
 .main {
   /* background-image: url('./background.png'); */
   /* background-size: cover; */
