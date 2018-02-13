@@ -6,6 +6,8 @@ body {
   /* background-color: blue; */
   margin-top: 100px;
   border: 1px solid black;
+  position: absolute;
+  top: 0;
   /* width: 1200px;
   height: 640px; */
   /* position: fixed; */
@@ -15,12 +17,14 @@ body {
 }
 
 #ui-canvas {
+  margin-top: 100px;
   position: absolute;
   top: 0;
   /* color: white;
   font-size: 20px; */
 }
 #terrain-canvas {
+  margin-top: 100px;
   position: absolute;
   top: 0;
   /* color: white;
