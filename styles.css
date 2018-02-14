@@ -1,10 +1,13 @@
 body {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #canvas {
   /* background-color: blue; */
-  margin-top: 100px;
+  margin-top: 50px;
   border: 1px solid black;
   position: absolute;
   top: 0;
@@ -17,14 +20,21 @@ body {
 }
 
 #ui-canvas {
-  margin-top: 100px;
+  margin-top: 50px;
   position: absolute;
   top: 0;
   /* color: white;
   font-size: 20px; */
 }
 #terrain-canvas {
-  margin-top: 100px;
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+  /* color: white;
+  font-size: 20px; */
+}
+#text-canvas {
+  margin-top: 50px;
   position: absolute;
   top: 0;
   /* color: white;
@@ -37,7 +47,8 @@ body {
   /* background-position: center; */
   /* width: 100vw;
   height: 100vh; */
-  height: 1000px;
+  height: 950px;
+  width: 100%;
   background: linear-gradient(blue, orange);
   display: flex;
   flex-direction: column;
@@ -48,13 +59,14 @@ body {
   display:flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute;
   bottom: -55px;
-  left: 0;
+  left: 0; */
   width: 1180px;
   height: 80px;
   background: lightblue;
   padding: 10px 20px;
+  margin-top: -100px;
 }
 
 #power-container {
@@ -73,9 +85,8 @@ body {
 }
 
 #wind-container {
-  position: absolute;
-  top: 120px;
-  left: 680px;
+  position: relative;
+  top: -900px;
   border-radius: 100px;
   width: 70px;
   height: 70px;
