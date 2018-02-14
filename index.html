@@ -7,18 +7,35 @@
   </head>
   <body>
     <div class="main">
-      <canvas id="terrain-canvas" width="1200" height="800"></canvas>
-      <canvas id="canvas" width="1200" height="800"></canvas>
-      <canvas id="ui-canvas" width="1200" height="800"></canvas>
-      <canvas id="text-canvas" width="1200" height="800"></canvas>
+      <canvas id="terrain-canvas" width="1200px" height="800"></canvas>
+      <canvas id="canvas" width="1200px" height="800"></canvas>
+      <canvas id="ui-canvas" width="1200px" height="800"></canvas>
+      <canvas id="text-canvas" width="1200px" height="800"></canvas>
     </div>
 
 
     <div id="bottom-ui">
-      <span>Power</span>
+      <div class="shot-selector-container">
+        <div class="shot-selector">
+          1
+        </div>
+        <div class="shot-selector">
+          2
+        </div>
+        <div class="shot-selector" id="ss">
+          SS
+        </div>
+      </div>
+      <div id="angle-display-container">
+        <span>Angle</span>
+        <div id="angle-display"></div>
+      </div>
       <div id="power-container" style='width: 1000px;'>
-        <div id="power-fill" style='width: 10px;'>
-
+        <div id="power-fill" style='width: 5px;'>
+          <div id="one-fourth"><div id="one-eighth"></div></div>
+          <div id="two-fourth"><div id="three-eighth"></div></div>
+          <div id="three-fourth"><div id="five-eighth"></div></div>
+          <div id="four-fourth"><div id="seven-eighth"></div></div>
         </div>
       </div>
     </div>
