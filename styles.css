@@ -108,3 +108,12 @@ body {
   color: red;
   text-align: center;
 }
+
+#main-timer {
+  color: red;
+  font-size: 60px;
+  position: relative;
+  top: 50px;
+  align-self: flex-end;
+  margin-right: 50px;
+}
