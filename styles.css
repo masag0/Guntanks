@@ -1,3 +1,7 @@
+.hidden {
+  display: none !important;
+}
+
 body {
   font-family: sans-serif;
   display: flex;
@@ -17,6 +21,15 @@ body {
   /* top: 100px;
   left: 0;
   right: 0; */
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0,0,0, 0.6);
+  z-index: 1000;
 }
 
 #ui-canvas {
@@ -214,6 +227,7 @@ body {
 #wind-icon {
   display: flex;
   align-items: center;
+  justify-content: center;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -224,9 +238,12 @@ body {
 
 }
 
-#wind-icon span {
-  color: red;
+#wind-text {
+  position: relative;
   text-align: center;
+  color: red;
+  font-size: 30px;
+
 }
 
 #main-timer {
