@@ -228,6 +228,14 @@ body {
   height: 10px;
   width: 125px;
 }
+#prev-power {
+  position:absolute;
+  top: 0;
+  width: 1px;
+  height: 50px;
+  background: red;
+
+}
 
 
 
@@ -302,7 +310,28 @@ body {
   font-weight: lighter;
 }
 
+#vol-container {
+  position: relative;
+  left: -560px;
+  top: -1030px;
+  z-index: 10000;
+  cursor: pointer;
+}
 
+.vol {
+  height: 50px;
+  width: 50px;
+}
+
+#directions-container {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: -475px;
+  left: 420px;
+  color: white;
+  font-size: 14px;
+}
 
 
 
