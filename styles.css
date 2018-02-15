@@ -21,6 +21,7 @@ body {
   /* top: 100px;
   left: 0;
   right: 0; */
+  z-index: 1001;
 }
 
 #overlay {
@@ -114,9 +115,15 @@ body {
 
 .shot-selector-container {
   display: flex;
-
+}
+.shot-selector span {
+  margin-top: 2px;
 }
 .shot-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
   text-shadow: 0 0 1px black;
   box-sizing: border-box;
@@ -132,6 +139,16 @@ body {
 }
 #ss {
   background-color: rgb(246, 216, 89);
+}
+
+.light {
+  width: 14px;
+  height: 8px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: rgb(60,60,60);
+  /* background-color: rgb(0,255,0); */
 }
 
 #power-container {
