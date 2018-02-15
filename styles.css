@@ -271,3 +271,53 @@ body {
   align-self: flex-end;
   margin-right: 30px;
 }
+
+
+#turn-queue-container {
+  position: relative;
+  left: -520px;
+  bottom: 255px;
+  padding: 5px;
+  width: 150px;
+  height: 120px;
+  box-shadow: -2px 2px 5px black;
+  background: rgb(41, 230, 245);
+  border: 4px solid rgb(41, 205, 255);;
+  box-sizing: border-box;
+  color: yellow;
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+  z-index: 1000;
+}
+#turn-queue {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+#turn-queue li {
+  font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
