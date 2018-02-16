@@ -1,9 +1,9 @@
 # Guntanks!
 
-[https://masag0.github.io/Guntanks/]
+[Live Site!](https://masag0.github.io/Guntanks/)
 
 ## Overview
-Guntanks! is a simplified clone of popular turn based tank games like Worms and Gunbound that was designed and implemented in one week using vanilla JavaScript, HTML5, and CSS3. No outside libraries were used. It has a simple 2D physics engine, destructible terrain, user controlled tanks, artillery, a delay queueing system, and wind that affects the trajectory of projectiles. 
+Guntanks! is a simplified clone of popular turn based tank games like Worms and Gunbound that was designed and implemented in one week using vanilla JavaScript, HTML5, and CSS3. No outside libraries were used. It has a simple 2D physics engine, destructible terrain, user controlled tanks, artillery, a delay queueing system, and wind that affects the trajectory of projectiles.
 
 ![Screenshot](./assets/screenshot.png)
 
