@@ -24,6 +24,7 @@ Guntanks! is a simplified clone of popular turn based tank games like Worms and 
 * Adjust the power of your shot by pressing and holding 'Space'. Let go of 'Space' to fire your shot.
 * See the power of your previous shot as a red indicator on the power bar.
 * Watch out for wind!
+* Refresh the page to play again!
 
 ## Details
 
