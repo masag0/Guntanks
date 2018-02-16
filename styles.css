@@ -275,7 +275,7 @@ body {
   color: red;
   font-size: 60px;
   position: relative;
-  top: 20px;
+  top: 13px;
   align-self: flex-end;
   margin-right: 30px;
 }
@@ -290,7 +290,7 @@ body {
   height: 120px;
   box-shadow: -2px 2px 5px black;
   background: rgb(41, 230, 245);
-  border: 4px solid rgb(41, 205, 255);;
+  border: 4px solid rgb(41, 205, 255);
   box-sizing: border-box;
   color: yellow;
   font-weight: bold;
@@ -334,6 +334,35 @@ body {
 }
 
 
+#item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 5px;
+  top: -1310px;
+  left: 280px;
+  background: rgb(41, 205, 255);
+  width: 320px;
+  height: 40px;
+  padding: 5px;
+}
+.dualshot {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  box-shadow: 0 0 2px black;
+}
+
+h1 {
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+  top: -1370px;
+  right: 300px;
+}
 
 
 
