@@ -1,26 +1,20 @@
+
+
 .hidden {
   display: none !important;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 1.15;
 }
 
 #canvas {
-  /* background-color: blue; */
-  /* margin-top: 50px; */
-  /* border: 1px solid black; */
   position: absolute;
   top: 0;
-  /* width: 1200px;
-  height: 640px; */
-  /* position: fixed; */
-  /* top: 100px;
-  left: 0;
-  right: 0; */
   z-index: 1001;
 }
 
@@ -324,10 +318,11 @@ body {
 }
 
 #directions-container {
+  font-weight: 200;
   width: 300px;
   height: 200px;
   position: relative;
-  top: -485px;
+  top: -490px;
   left: 420px;
   color: white;
   font-size: 14px;
