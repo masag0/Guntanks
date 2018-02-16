@@ -5,7 +5,7 @@
 ## Overview
 Guntanks! is a simplified clone of popular turn based tank games like Worms and Gunbound that was designed and implemented in one week. It has a simple 2D physics engine, destructible terrain, user controlled tanks, artillery, a delay queueing system, and wind that affects the trajectory of projectiles.
 
-![Screenshot](./assets/screenshot.jpg)
+![Screenshot](./assets/screenshot.png)
 
 ## Features
 * Tanks that can move, shoot, and have health
