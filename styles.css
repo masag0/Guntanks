@@ -11,7 +11,6 @@ body {
   align-items: center;
   line-height: 1.15;
   background: rgb(20,20,20);
-  overflow: hidden;
 }
 
 #canvas {
