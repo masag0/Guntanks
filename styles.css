@@ -23,7 +23,7 @@ body {
   position: absolute;
   top: 0;
   width: 1200px;
-  height: 800px;
+  height: 650px;
   background-color: rgba(0,0,0, 0.6);
   z-index: 1000;
 }
@@ -54,7 +54,7 @@ body {
 .main {
   position: relative;
   top: 30px;
-  height: 800px;
+  height: 650px;
   width: 1200px;
   background: linear-gradient(blue, orange);
   display: flex;
@@ -233,7 +233,7 @@ body {
 
 #wind-container {
   position: relative;
-  top: -850px;
+  top: -700px;
   border-radius: 100px;
   width: 70px;
   height: 70px;
@@ -304,7 +304,7 @@ body {
 #vol-container {
   position: relative;
   left: -560px;
-  top: -1030px;
+  top: -880px;
   z-index: 10000;
   cursor: pointer;
 }
@@ -319,7 +319,7 @@ body {
   width: 300px;
   height: 200px;
   position: relative;
-  top: -490px;
+  top: -450px;
   left: 420px;
   color: white;
   font-size: 14px;
@@ -352,7 +352,7 @@ h1 {
   font-size: 70px;
   font-weight: bold;
   position: relative;
-  top: -1370px;
+  top: -1220px;
   right: 300px;
 }
 
